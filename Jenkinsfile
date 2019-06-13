@@ -7,7 +7,7 @@ node{
        def mvnHome = tool name: 'maven-3', type: 'maven'
        sh "${mvnHome}/bin/mvn package"
   }
-  satge('email notification'){
+  //satge('email notification'){
        //email notification
        mail bcc: '', body: '''hi welcome to jenkins 
        email notification 
